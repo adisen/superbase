@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Collectibles from "../components/Collectibles";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Partners from "../components/Partners";
@@ -20,6 +21,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Partners />
+        <Collectibles />
       </main>
     </>
   );
